@@ -155,10 +155,6 @@ python manage.py runserver
 
 ## 📦 Deployment
 
-This service is optimized for serverless and container-based deployments.
-
-### Supported Platforms
-
 * **Vercel** (serverless)
 * **Render** (recommended)
 * **Railway**
@@ -184,7 +180,7 @@ This service is optimized for serverless and container-based deployments.
 │   ├── urls.py
 ├── manage.py
 ├── requirements.txt
-├── vercel.json
+
 ```
 
 ---
