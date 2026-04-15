@@ -9,6 +9,14 @@ GENDERIZE_URL = "https://api.genderize.io"
 
 
 @api_view(['GET'])
+def home(request):
+    return Response({
+        "status": "success",
+        "message": "Welcome to the Genderize API"
+    })
+
+
+@api_view(['GET'])
 def classify_name(request):
     name = request.GET.get('name')
 
